@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VetOnline</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="img/logo.png" alt="Logo VetOnline" class="logo" />
+      <nav>
+        <a href="#">Ingrese aqui</a>
+        <a href="#">Crea tu Cuenta</a>
+      </nav>
+    </div>
+    <div class="welcome">
+      <h1>Bienvenidos!</h1>
+    </div>
+    <img src="img/imagen.png" alt="Mascotas" class="mascotas" />
+  </header>
+
+  <main>
+    <section class="formulario">
+      <div class="form-header">
+        <h2>Mascotas</h2>
+        <button>Ingresar mascota</button>
+      </div>
+      <form>
+        <div class="form-row">
+          <label>Mascota*<br>
+            <input type="radio" name="mascota" value="Gato"> Gato
+            <input type="radio" name="mascota" value="Perro"> Perro
+          </label>
+          <label>Nombre*<br><input type="text" name="nombre" required></label>
+          <label>Apodo*<br><input type="text" name="apodo" required></label>
+        </div>
+        <div class="form-row">
+          <label>Edad aproximada*<br><input type="text" name="edad" required></label>
+          <label>Sexo<br><input type="text" name="sexo"></label>
+          <label>Descripción física*<br><input type="text" name="descripcion" required></label>
+        </div>
+        <div class="form-row">
+          <label>Características<br>
+            <select name="caracteristicas">
+              <option>Color principal</option>
+              <option>Pelaje largo</option>
+              <option>Manchas</option>
+            </select>
+            <input type="text" placeholder="Ingresar característica">
+          </label>
+          <label>Fotos<br>
+            <input type="file" name="foto">
+          </label>
+        </div>
+        <div class="form-footer">
+          <p>Los campos marcados con (*) son obligatorios</p>
+          <button type="submit">Guardar</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="contacto">
+        <div class="contacto-contenido">
+          <h2>Contactanos</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+      
+          <div class="contact-info">
+            <div>
+              <img src="img/tel.svg" alt="Teléfono">
+              <span>+54 9 11 5162 0516</span>
+            </div>
+            <div>
+              <img src="img/mail.svg" alt="Mail">
+              <span>info@vetonline.com</span>
+            </div>
+          </div>
+      
+          <p class="copyright">
+            Copyright © 2025. Todos los derechos reservados. Realizado por Ricardo Lechman
+          </p>
+        </div>
+      </section>
+      

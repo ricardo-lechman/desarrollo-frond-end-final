@@ -1,0 +1,195 @@
+:root {
+    --violeta: #7e57c2;
+    --violeta-oscuro: #5e35b1;
+    --turquesa: #00bcd4;
+    --gris-fondo: #f3f3f3;
+    --blanco: #ffffff;
+    --negro: #333;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--gris-fondo);
+  }
+  
+  header {
+    background-color: var(--blanco);
+    text-align: center;
+    position: relative;
+  }
+  
+  .top-bar {
+    background-color: var(--violeta);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--blanco);
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+  }
+  
+  .welcome {
+    padding: 2rem;
+  }
+  
+  .welcome h1 {
+    color: rgb(175, 60, 166);
+    font-size: 2.5rem;
+  }
+  
+  .mascotas {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -20px;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .formulario {
+    background: var(--blanco);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-width: 1100px;
+    margin: 2rem auto;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-header h2 {
+    color: var(--violeta);
+  }
+  
+  .form-header button {
+    background: none;
+    border: 2px solid var(--turquesa);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: var(--turquesa);
+    cursor: pointer;
+  }
+  
+  form .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+  
+  input, select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 0.25rem;
+  }
+  
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .form-footer p {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  form button[type="submit"] {
+    background-color: var(--turquesa);
+    color: var(--blanco);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contacto {
+    background-image: url('../img/footer_cortado.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+    text-align: center;
+    padding: 8rem 2rem 4rem;
+    position: relative;
+  }
+  
+  .contacto-contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contacto p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.5;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .contact-info img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .contacto hr {
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 2rem auto 1.5rem;
+    width: 90%;
+  }
+  
+  .contacto .copyright {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  
