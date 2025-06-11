@@ -16,17 +16,16 @@ Sitio web ficticio para una veterinaria, desarrollado como proyecto académico p
 ## 📁 Estructura del proyecto
 
 vetonline/
-│
-├── index.html # Página principal
-├── css/
-│ └── estilos.css # Estilos personalizados
-├── img/
-│ ├── logo.png
-│ ├── mascotas.png
-│ ├── tel.svg
-│ ├── mail.svg
-│ ├── footer-bg.svg
-│ └── vineta-violeta.svg
+index.html # Página principal
+-css/
+  estilos.css # Estilos personalizados
+-img/
+  logo.png
+  mascotas.png
+  tel.svg
+  mail.svg
+  footer-bg.svg
+  vineta-violeta.svg
 
 ---
 
